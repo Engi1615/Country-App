@@ -57,7 +57,7 @@ export function CountryPage() {
                   <p>
                     <b>Languages: </b>
                     <span className="languages">
-                      {Object.values(data.languages)[0]}
+                      {Object.values(data.languages).join(", ")}
                     </span>
                   </p>
                 </div>
